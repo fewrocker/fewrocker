@@ -5,11 +5,11 @@
       <% data.users.each do |user| %>
         <li>
           <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle img-hover" %>
           <% end %>
           <h2><%= user.name %></h2>
           <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
+            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank", class: "github-link" do %>
               <i class="fab fa-github"></i> <%= user.github_nickname %>
             <% end %>
           </p>
