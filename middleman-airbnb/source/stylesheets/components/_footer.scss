@@ -16,12 +16,16 @@
 
 .footer {
   padding-top: 30px;
-  background-color: $red;
-  margin: 100px 0 0 0;
-  padding: 40px 0 20px 0;
+  background-color: $darker-gray;
+  margin: 0 0 0 0;
+  padding: 10px 0 20px 0;
 }
 
-.fa-heart {
-  color: black;
+.space {
+  margin-bottom: 150px;
+}
+
+.co-name {
   font-size: 30px;
+  color: rgba(70,70,70,0.6);
 }

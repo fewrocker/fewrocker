@@ -1,0 +1,53 @@
+.wrapper-flat-info {
+  height: 40vh;
+  background-color: $dark-gray;
+  margin-bottom: 0;
+}
+
+.container-flat-info {
+  padding: 30px 300px;
+}
+
+.about-flat h2 {
+  color: rgba(50,50,50,1);
+  font-size: 30px;
+}
+
+.about-flat p {
+  color: rgba(50,50,50,0.7);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.flat-detailed-info {
+  margin-top: 20px;
+}
+
+.info-title {
+  color: rgba(50,50,50,1);
+  font-size: 20px;
+}
+
+.info-title-lesser {
+  color: rgba(50,50,50,1);
+  font-size: 18px;
+}
+
+.light-left-margin {
+  border-left: 1px solid rgba(150,150,150,0.5);
+}
+
+.bold-highlight {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.fa-check {
+  font-size: 26px;
+  color: $green;
+}
+
+.fa-times {
+  font-size: 26px;
+  color: $red;
+}

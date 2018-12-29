@@ -1,0 +1,22 @@
+.container-form {
+  margin-top: 50px;
+}
+
+#checkin, #checkout {
+  width: 200px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+.btn-book {
+  background-color: $red;
+  margin-top: 15px;
+  width: 400px;
+  &:hover {
+    background-color: $dark-red;
+    color: white;
+    transition: all 100ms ease;
+  }
+}

@@ -1,0 +1,102 @@
+- ssaunier:
+  link: ssaunier
+  owner: Sebastien
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  long_description: "More than 440 AMAZING REVIEWS!
+Ideally located in the heart of the city, beautiful apartment well decorated, 1 to 4 people. Quiet, cozy, fully equipped, air conditioner and wifi, next to shops, in the best neighborhood of Avignon.
+Autonomous check-in 24 hours a day
+Parking spaces at 20 meters.
+5 minutes walk: Palace of the Popes, Avignon's bridge, center train station."
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  pets: false
+  smoking: false
+  rating: 4
+  beds: 2
+  bathrooms: 1
+  bedrooms: 1
+
+- papillard:
+  link: papillard
+  owner: Boris
+  name: "Boris' home"
+  description: Nice apartment in Tokyo
+  long_description: "Estar en Barcelona. En el centro de Barcelona. Y alojarse en un espacio único de techos altos, estilo propio y mucha luz natural. No es un sueño. Ese apartamento existe. Y está en Eixample."
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  pets: true
+  smoking: true
+  rating: 5
+  beds: 3
+  bathrooms: 2
+  bedrooms: 2
+
+- monsieurpaillard:
+  link: monsieurpaillard
+  owner: Romain
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  long_description: "O apartamento foi projetado especialmente para que o hóspede tenha autonomia contendo todos os utensílios necessários para o seu conforto. Situa-se na lapa, bairro boêmio mais charmoso do Rio de Janeiro, próximo à Santa Teresa."
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  pets: false
+  smoking: true
+  rating: 3
+  beds: 2
+  bathrooms: 1
+  bedrooms: 1
+
+- fewrocker:
+  link: fewrocker
+  owner: Felipe
+  name: "Felipe's home"
+  description: "Enter the wonderful city"
+  long_description: "Uma casa no penhasco do parque dois irmaos entre o Vidigal e o Leblon em frente o mar . A casa esta dentro de um jardim onde existem outras 3 casas. Uma e a minha casa onde estou sempre pela manha super disponivel a ajudar meus hospedes em como desfrutar melhor a cidade. E outras duas casa onde tambem alugo por temporada pelo airbnb."
+  city_name: "Rio de Janeiro, Brazil"
+  city_slug: "rio"
+  wifi: true
+  pets: true
+  smoking: true
+  rating: 5
+  beds: 6
+  bathrooms: 3
+  bedrooms: 4
+
+- camilamiz:
+  link: camilamiz
+  owner: Camila
+  name: "Camila's home"
+  description: "Come smoke some legal weed"
+  long_description: "Charmoso quarto e sala com banheiro privativo em apart hotel.
+
+O local conta com:
+1 cama de casal,1 sofá cama que se transforma em 2 camas (1 de casal e 1 de solteiro, bicama),Wifi,Tv a cabo somente na sala, dvd no quarto, Ar condicionado, ventilador de chão. Na cozinha: Fogão / Geladeira / Microondas / Cafeteira / Sanduicheira / Filtro de água/panelas e utensílios domésticos."
+  city_name: "Amsterdan, Netherlands"
+  city_slug: "amsterdan"
+  wifi: true
+  pets: true
+  smoking: true
+  rating: 5
+  beds: 2
+  bathrooms: 1
+  bedrooms: 1
+
+- tabatalisboa:
+  link: tabatalisboa
+  owner: Tabata
+  name: "Tabata's home"
+  description: "Who cares about Portugal?"
+  long_description: "100 metros da Praia de Copacabana, 300 metros do Metrô, ao lado de supermercados, padarias, farmácias, lojas, bares, restaurantes, igrejas, apartamento novo, linda decoração, camas super confortáveis, silencioso, ar condicionado, tv a cabo 127 canais, Wi Fi 30 mega, secador de cabelo, ferro, todos os eletrodomésticos, toalhas e roupas de cama, portaria 24 horas, segurança, 5 elevadores. Bom para casais, viajantes de negócios e famílias (com crianças)."
+  city_name: "Lisbon, Portugal"
+  city_slug: "lisbon"
+  wifi: false
+  pets: false
+  smoking: false
+  rating: 4
+  beds: 2
+  bathrooms: 1
+  bedrooms: 1
