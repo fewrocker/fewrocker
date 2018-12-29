@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smooth Scrolling</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar-wagon" id="navbar">
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <div class="navbar-wagon-item navbar-wagon-link active" id="product-link">Product</div>
+    <div class="navbar-wagon-item navbar-wagon-link" id="features-link">Features</div>
+    <div class="navbar-wagon-item navbar-wagon-link" id="pricing-link">Pricing</div>
+  </div>
+  <h2>allShop</h2>
+</div>
+
+<div class="container-questionmark" id="container-quest">
+  <i class="fas fa-question" id="questionmark"></i>
+</div>
+<div id="helper">
+  <h2>Contact support</h2>
+</div>
+
+<div class="wrapper wrapper-intro banner">
+  <div class="container container-intro text-center">
+    <h1>allShop</h1>
+    <p>Get your groceries without leaving the couch</p>
+    <a class="btn btn-danger" id="cta-button">Start now</a>
+  </div>
+</div>
+
+<div class="wrapper wrapper-features">
+  <div class="container container-features">
+    <div class="feature-card card-1">
+      <h1>Fast</h1>
+      <i class="fas fa-fast-forward"></i>
+      <h2>Get your products quickly delivered to your home right when you need them</h2>
+    </div>
+    <div class="feature-card card-2">
+      <h1>Cheap</h1>
+      <i class="far fa-money-bill-alt"></i>
+      <h2>Compare for best prices and make sure you get the best deals</h2>
+    </div>
+    <div class="feature-card card-3">
+      <h1>Easy</h1>
+      <i class="fas fa-birthday-cake"></i>
+      <h2>Shop with just a few clicks using our accessible easy-to-learn interface</h2>
+    </div>
+    <div class="feature-card card-4">
+      <h1>Cozy</h1>
+      <i class="fas fa-home"></i>
+      <h2>Let our assistants help you bringing all the stuff up and inside your drawers</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper wrapper-pricing">
+  <div class="container container-pricing">
+    <h1>Our best <span class="colorize-cursive"> &nbsp;specials</span></h1>
+
+    <div class="scroll-right" id="main-scroll-right">
+      <h2><i class="fas fa-arrow-right"></i></h2>
+    </div>
+    <div class="scroll-left" id="main-scroll-left">
+      <h2><i class="fas fa-arrow-left"></i></h2>
+    </div>
+
+    <div class="scroll-right" id="minor-scroll-right">
+      <h2><i class="fas fa-arrow-right"></i></h2>
+    </div>
+    <div class="scroll-left" id="minor-scroll-left">
+      <h2><i class="fas fa-arrow-left"></i></h2>
+    </div>
+
+    <div id="main-cards">
+      <div class="main-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/02/p-evid1-672x372.jpg');">
+        <div class="main-card-category">Food</div>
+        <div class="main-card-description">
+          <h2>$12.49</h2>
+          <h3>Pepperoni Pizza</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="main-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://savegnago.vteximg.com.br/arquivos/ids/270059-1000-1000/figura-1frente.jpg?v=636131783157000000');">
+        <div class="main-card-category">Food</div>
+        <div class="main-card-description">
+          <h2>$7.69</h2>
+          <h3>Chicken nuggets</h3>
+        </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="main-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://http2.mlstatic.com/lasanha-calabresa-congelada-D_NQ_NP_409425-MLB25445290112_032017-O.webp');">
+        <div class="main-card-category">Food</div>
+        <div class="main-card-description">
+          <h2>$9.98</h2>
+          <h3>Microwave Lasagna</h3>
+        </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="main-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://cdn0.woolworths.media/content/wowproductimages/large/001079.jpg');">
+        <div class="main-card-category">Hygiene</div>
+        <div class="main-card-description">
+          <h2>$13.50</h2>
+          <h3>Rexona Deodorant</h3>
+        </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="main-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://cdn.shopify.com/s/files/1/0241/9855/products/A98A8877_1024x1024.jpg?v=1489182842');">
+        <div class="main-card-category">Hygiene</div>
+        <div class="main-card-description">
+          <h2>$7.99</h2>
+          <h3>Toothbrush</h3>
+        </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+    <h1 class="minor-text-prod text-right">Our best <span class="colorize-cursive-minor"> &nbsp;prices</span></h1>
+
+    <div id="minor-cards">
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.deliveryextra.com.br/img/uploads/1/667/556667.jpg?type=product');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$2.99</h2>
+          <h3>Brahma</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.paodeacucar.com/img/uploads/1/943/559943.jpg?type=product');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$2.89</h2>
+          <h3>Skol</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://cervejastore.vteximg.com.br/arquivos/ids/157946/bud.jpg?v=636204378721170000');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$3.12</h2>
+          <h3>Budweiser</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://cervejastore.vteximg.com.br/arquivos/ids/155927-1000-1000/heineken.jpg?v=636166141076670000');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$3.29</h2>
+          <h3>Heineken</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://emporiodacerveja.vteximg.com.br/arquivos/ids/162311-1000-1000/stella-550.jpg?v=636155169451900000');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$3.27</h2>
+          <h3>Stella Artois</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://savegnago.vteximg.com.br/arquivos/ids/273034-1000-1000/figura-1frente.jpg?v=636132265940200000');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$3.03</h2>
+          <h3>Heisenbahn</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://superprix.vteximg.com.br/arquivos/ids/168911-600-600/Cerveja-Antarctica-355ml--Long-Neck-.jpg?v=636094483972770000');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$2.39</h2>
+          <h3>Antartica</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+
+      <div class="minor-product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://dbcommerce.s3.amazonaws.com/caita/3807-59987bd732b0f.jpg');">
+        <div class="minor-card-category">Beverage</div>
+        <div class="minor-card-description">
+          <h2>$3.20</h2>
+          <h3>Corona</h3>
+          </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="footer-wrapper">
+  <div class="footer-container text-center">
+    <h2>allShop &nbsp;<strong>2018</strong></h2>
+    <div class="footer-disclaimer">
+      <p>Some bands are sold separately.
+      Apple Watch Series 4 (GPS + Cellular) requires an iPhone 6 or later with iOS 12 or later. Apple Watch Series 4 (GPS) requires an iPhone 5s or later with iOS 12 or later. Apple Watch Series 3 (GPS + Cellular) requires an iPhone 6 or later with iOS 11 or later. Apple Watch Series 3 (GPS) requires an iPhone 5s or later with iOS 11 or later.</p>
+      <p>Wireless service plan required for cellular service. Apple Watch and iPhone service provider must be the same. Not available with all service providers. Not all service providers support enterprise accounts or prepaid plans; check with your employer and service provider. Some legacy plans may not be compatible. Roaming is not available. Contact your service provider for more details. Check www.apple.com/watch/cellular for participating wireless carriers and eligibility.</p>
+      <p>Apple Watch Series 4 has a water resistance rating of 50 meters under ISO standard 22810:2010. This means that it may be used for shallow-water activities like swimming in a pool or ocean. However, Apple Watch Series 4 should not be used for scuba diving, waterskiing, or other activities involving high-velocity water or submersion below shallow depth.
+      <p>Features are subject to change. Some features, applications, and services may not be available in all regions or all languages. Click here to see complete list.</p>
+    </div>
+
+
+    <div class="footer-lists">
+      <div class="footer-list">
+        <h3>About us</h3>
+        <p>History</p>
+        <p>Team</p>
+        <p>Culture</p>
+        <p>Mission</p>
+        <p>Timeline</p>
+        <p>Other products</p>
+      </div>
+      <div class="footer-list">
+        <h3>Monthly plans</h3>
+        <p>Free</p>
+        <p>Budget</p>
+        <p>Traditional</p>
+        <p>Premium</p>
+        <p>Diamond</p>
+      </div>
+      <div class="footer-list">
+        <h3>Locations</h3>
+        <p>São Paulo</p>
+        <p>Rio de Janeiro</p>
+        <p>Brasilia</p>
+        <p>Belo Horizonte</p>
+      </div>
+    </div>
+
+    <div class="copyright-text">
+      <p>©2018 allShop - All rights reserved</p>
+      <p>Contact us: (603) 205-5655</p>
+    </div>
+
+  </div>
+</div>
+
+  <script src="build/application.js"></script>
+</body>
+</html>
